@@ -1,0 +1,283 @@
+body {
+  background-image: url(../images/cover.png);
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.nav1 {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+
+.nav1 img {
+  width: 200px;
+  margin-right: 35%;
+}
+
+.nav1 a {
+  margin-right: 2%;
+  position: relative;
+  top: -15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.reservationnav {
+  background-color: #D2B247;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+.nav2 {
+  display: none;
+  background-color: black;
+  width: 100%;
+  margin-top: -30px;
+  position: fixed;
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 35%;
+  margin-top: -40px;
+}
+
+.iconmenu img {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+  position: fixed;
+  margin-top: 50px;
+}
+
+.box2 {
+  height: 30px;
+  text-align: center;
+}
+
+.insform, .resform {
+  margin-left: 25%;
+  height: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 50%;
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.insform h1, .resform h1 {
+  color: #4AD3C9;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.resform {
+  height: 800px;
+}
+
+.resform select {
+  border-radius: 25px;
+  height: 30px;
+  width: 100px;
+  margin-right: 5%;
+}
+
+.s1 {
+  margin-left: 12%;
+}
+
+.margin {
+  height: 50px;
+}
+
+.input {
+  padding: 5px 170px 5px 10px;
+  display: block;
+  margin-left: 23%;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.valider {
+  background-color: #D2B247;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: none;
+}
+
+.input1 {
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.inscrire {
+  background-color: #D2B247;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 250px;
+}
+
+.logo3 img {
+  width: 200px;
+  margin-left: 35%;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.links1 {
+  margin-left: 2%;
+}
+
+.links2, .links1 {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.email {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.email input {
+  padding: 5px 100px 5px 5px;
+}
+
+.email button {
+  background-color: #D2B247;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: none;
+  border-radius: 0px 25px 25px 0px;
+  padding: 7px;
+  margin-left: -4px;
+}
+
+.copyright {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+}
+
+.copyright p {
+  text-align: center;
+}
+
+.f2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.rs {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.rs img {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.blank {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+
+@media (max-width: 766px) {
+  .logo3 img {
+    margin-left: 20%;
+  }
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+  .insform, .resform {
+    margin-left: 5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+  }
+  .input {
+    padding-right: 29%;
+    margin-left: 10%;
+  }
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .f2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .copyright {
+    margin-left: -50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
