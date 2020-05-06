@@ -71,7 +71,7 @@ a{
 
   .insform{
     margin-left: 25%;
-    height: 450px;
+    height: 420px;
     justify-content: center;
     text-align: center;
     width: 50%;
@@ -87,7 +87,7 @@ a{
 
     .resform{
         @extend .insform;
-        height: 800px;
+        height: 600px;
         select{
             border-radius: 25px;
             height: 30px;
@@ -97,33 +97,30 @@ a{
         }
     }
     .s1{
-        margin-left: 12%;
+        margin-left: 2%;
+        
+    }
+    #s1,#s2,#s3{
+        width: 26%;
     }
     .margin{
         height: 50px;
     }
     .input{
-        padding: 5px 170px 5px 10px;
+       
         display: block;
-        margin-left: 23%;
+        padding-right: 29%;
+        margin-left: 20%;
         margin-bottom: 20px;
         border-radius: 25px;
     } 
     .valider{
       @include button;
       border: none;
+      margin-top: 15px;
     }
     
-     .input1{
-         border-radius: 25px;
-         margin-bottom: 20px;
-         padding-left: 5px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-
-     }
-   
-    
+     
 
   .inscrire{
       @include button;
@@ -196,8 +193,6 @@ p{
     }
     .insform{
         margin-left: 5%;
-        // margin-top: 50px;
-        // height: 450px;
         justify-content: center;
         //text-align: center;
         width: 90%;

@@ -1,18 +1,18 @@
 function next1() {
     var container = document.getElementById('section1');
-    sideScroll(container,'right',25,100,10);
+    sideScroll(container,'right',25,262,10);
 };
 function next2() {
     var container = document.getElementById('section2');
-    sideScroll(container,'right',25,100,10);
+    sideScroll(container,'right',25,262,10);
 };
 function prv1 () {
     var container = document.getElementById('section1');
-    sideScroll(container,'left',25,100,10);
+    sideScroll(container,'left',25,262,10);
 };
 function prv2 () {
     var container = document.getElementById('section2');
-    sideScroll(container,'left',25,100,10);
+    sideScroll(container,'left',25,262,10);
 };
 
 function sideScroll(element,direction,speed,distance,step){

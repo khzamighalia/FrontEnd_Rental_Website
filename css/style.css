@@ -76,7 +76,7 @@ a {
 
 .insform, .resform {
   margin-left: 25%;
-  height: 450px;
+  height: 420px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -94,7 +94,7 @@ a {
 }
 
 .resform {
-  height: 800px;
+  height: 600px;
 }
 
 .resform select {
@@ -105,7 +105,11 @@ a {
 }
 
 .s1 {
-  margin-left: 12%;
+  margin-left: 2%;
+}
+
+#s1, #s2, #s3 {
+  width: 26%;
 }
 
 .margin {
@@ -113,9 +117,9 @@ a {
 }
 
 .input {
-  padding: 5px 170px 5px 10px;
   display: block;
-  margin-left: 23%;
+  padding-right: 29%;
+  margin-left: 20%;
   margin-bottom: 20px;
   border-radius: 25px;
 }
@@ -125,14 +129,7 @@ a {
   padding: 5px 10px;
   border-radius: 25px;
   border: none;
-}
-
-.input1 {
-  border-radius: 25px;
-  margin-bottom: 20px;
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 15px;
 }
 
 .inscrire {
